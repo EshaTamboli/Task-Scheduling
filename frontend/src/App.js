@@ -39,7 +39,7 @@ function App() {
         className="app-input"
         value={text}
         onChange={(e) => setText(e.target.value)}
-        placeholder="Enter a new todo"
+        placeholder="Enter a new task"
       />
       <button className="add-button" onClick={addTodo}>Add</button>
 
